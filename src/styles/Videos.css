@@ -1,0 +1,96 @@
+/* -- GLOBAL -- */
+body{
+    overflow-x: hidden;
+}
+.mainBg{
+    background-color:#0c1e25;
+    width: 100%;
+}
+.secondaryBg{
+    background-color: #fff;
+    width: 100%;
+}
+
+/* -- Theme Color -- */
+.DarkThemeColour{
+    color:#FFFFFF;
+    font-size: 15px;
+    text-align: center;
+}
+.LightThemeColour{
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+.mainColor{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+.secondaryColor{
+    color: #000000;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+}
+/* -- X Icon -- */
+#Exit1{
+    position: absolute;
+    margin-left: 475px;
+    margin-top: 67px;
+    z-index: 999;
+}
+#Nothing{
+    display: none;
+}
+
+/* -- Container -- */
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-container img{
+    width: 350px;
+    height: 550px;
+    margin: 25px 0px 4px 15px;
+    border-radius: 18px;
+}
+.main-container h3, .main-container img{
+    cursor: pointer;
+    transition: .7s;
+}
+.main-container img:hover{
+    transform: scale(1.05);
+}
+#Nothing{
+    display: none;
+}
+#container{
+    position: relative;
+}
+#hide{
+    display: none;
+}
+#smaller-Text{
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+#playIcon{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    visibility: visible;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#NoContainer{
+    opacity: 0.35;
+}
