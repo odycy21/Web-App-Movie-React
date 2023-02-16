@@ -5,6 +5,7 @@ body{
 .mainBg{
     background-color:#0c1e25;
     width: 100%;
+    height: 100%;
 }
 .secondaryBg{
     background-color: #fff;
