@@ -22,7 +22,6 @@ function Movies() {
     const Images = "https://image.tmdb.org/t/p/w500";
     
     const MoviesCall = async () => {
-
         const data = await axios.get(moviesApi,{
             params: {
                 api_key: apiKey,
@@ -33,18 +32,19 @@ function Movies() {
         setMoviesData(results);
     }
 
-    useEffect(()=> {
-        MoviesCall()
+    useEffect(() => {
+        setTimeout(()=> {
+            MoviesCall()
+        }, 100)
     }, [input])
-     // console.log(moviesData)
 
+     // console.log(moviesData)
     const movieShowsTitle = (movie) => {
         setTitle(movie.name)
         setTrailer(!trailer)
     }
 
   
-    
     return ( 
         <Fragment>
             <div className={toggle ? "mainBg" : "secondaryBg" }>

@@ -7,6 +7,7 @@ import noImage from './noImage.jpeg';
 import '../styles/Videos.css';
 import { tmdbApi } from "../constants";
 import { apiKey } from "../constants";
+import { tvShowsLink } from "../constants";
 
 function TvShows(){
     const {toggle} = useContext(Container)
@@ -15,7 +16,7 @@ function TvShows(){
     const [trailer, setTrailer] = useState(true);
     const [title, setTitle] = useState(true);
 
-    const tvShowsApi = `${tmdbApi}discover/tv`;
+    const tvShowsApi = `${tmdbApi}${tvShowsLink}`;
     const Images = "https://image.tmdb.org/t/p/w500";
 
 
