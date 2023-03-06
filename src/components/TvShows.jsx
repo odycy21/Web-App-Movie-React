@@ -7,17 +7,16 @@ import noImage from './noImage.jpeg';
 import '../styles/Videos.css';
 import { tmdbApi } from "../constants";
 import { apiKey } from "../constants";
+import { tvShowsLink } from "../constants";
 
 function TvShows(){
-    const {toggle, inputValue} = useContext(Container)
-    const input = inputValue;
+    const {toggle} = useContext(Container)
     
     const [showData, setShowData] = useState([]);
     const [trailer, setTrailer] = useState(true);
     const [title, setTitle] = useState(true);
 
-    const shown = input ? 'search' : 'discover';
-    const tvShowsApi = `${tmdbApi}${shown}/tv`;
+    const tvShowsApi = `${tmdbApi}${tvShowsLink}`;
     const Images = "https://image.tmdb.org/t/p/w500";
 
 
@@ -25,7 +24,6 @@ function TvShows(){
         const data = await axios.get(tvShowsApi, {
             params: {
                 api_key: apiKey,
-                query: input
             }
         })
        
@@ -36,10 +34,8 @@ function TvShows(){
     }
 
     useEffect(() => {
-        setTimeout(()=>{
-            TvShowsCall()
-        })
-    }, [input])
+        TvShowsCall()
+    }, [])
 
 
     const TvShowsTitle = (shows) => {

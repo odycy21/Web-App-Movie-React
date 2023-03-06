@@ -31,15 +31,15 @@ function NavBar() {
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Movies</span>
                         </NavLink>
 
-                        <NavLink  to="/tv-shows" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
+                        <NavLink  to="/TvShows" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>TV Shows</span>
                         </NavLink>
 
-                        <NavLink to="/trending" style={({isActive}) => {return {color:isActive ? "#ff" : "#FF5858"}}}>
+                        <NavLink to="/Trending" style={({isActive}) => {return {color:isActive ? "#ff" : "#FF5858"}}}>
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Trending</span>
                         </NavLink>
 
-                        <NavLink to="pricing" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
+                        <NavLink to="Pricing" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Pricing</span>
                         </NavLink>
                     </div>
@@ -56,9 +56,9 @@ function NavBar() {
         
                 <Routes>
                     <Route path="/" element={<Movies/>}/>
-                    <Route path="tv-shows" element={<TvShows/>}/>
-                    <Route path="trending" element={<Trending/>}/>
-                    <Route path="pricing" element={<Pricing/>}/>
+                    <Route path="TvShows" element={<TvShows/>}/>
+                    <Route path="Trending" element={<Trending/>}/>
+                    <Route path="Pricing" element={<Pricing/>}/>
                 </Routes>
 
             </Fragment>

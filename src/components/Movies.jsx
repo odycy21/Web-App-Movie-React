@@ -17,8 +17,8 @@ function Movies() {
     const [trailer, setTrailer] = useState(true);
     const [title, setTitle] = useState(true);
     
-    const shown = input ? 'search' : 'discover';
-    const moviesApi = `${tmdbApi}${shown}/movie`;
+    const Shown = input ? 'search' : 'discover';
+    const moviesApi = `${tmdbApi}${Shown}/movie`;
     const Images = "https://image.tmdb.org/t/p/w500";
     
     const MoviesCall = async () => {

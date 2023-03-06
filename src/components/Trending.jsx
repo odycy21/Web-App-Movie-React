@@ -12,13 +12,12 @@ import { trendsLink } from "../constants";
 
 function Trending(){
     const {toggle} = useContext(Container)
+    const trendingApi = `${tmdbApi}${trendsLink}`;
+    const Images = "https://image.tmdb.org/t/p/w500";
 
     const [trendArray, setTrendArray] = useState([]);
     const [title, setTitle] = useState(true);
     const [trailer, setTrailer] = useState(true);
-
-    const trendingApi = `${tmdbApi}${trendsLink}`;
-    const Images = "https://image.tmdb.org/t/p/w500";
 
     const TrendingCall = async () => {
         const data = await axios.get(trendingApi, {
@@ -29,7 +28,7 @@ function Trending(){
 
         const results = data.data.results;
         setTrendArray(results);
-        //console.log(data.data.results)
+        console.log(data.data.results)
     }
 
     useEffect(() => {
@@ -37,9 +36,10 @@ function Trending(){
     },[])
 
 
+    //console.log(results);
 
-  const trendingShowsTitle = (trend) => {
-    setTitle(trend.name)
+  const trendingShowsTitle = () => {
+    setTitle(trendArray.name)
     setTrailer(!trailer)
 }
 
