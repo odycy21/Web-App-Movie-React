@@ -1,5 +1,6 @@
 nav {
     width: 100vw;
+    height: 9vh;
     display: flex;
     justify-content: space-between;
     background-color: #001219;
@@ -15,7 +16,7 @@ nav a {
 nav span{
     cursor: pointer;
     margin-left: 40px;
-    font-size: .85rem;
+    font-size: 13px;
     text-transform: uppercase;
 }
 nav span:hover{

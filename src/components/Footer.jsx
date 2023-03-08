@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import '../styles/FooterStyle.css';
 
 function Footer() {
@@ -8,7 +8,16 @@ function Footer() {
 
     return(
        
-        <p className="footer-Container">  Stream Haus | {year} All Rights Reserved</p>
+        <Fragment>
+            <p className="footer_txt"> &copy; Stream Haus | {year} All Rights Reserved</p>
+
+            <div className="container">
+
+                
+            </div>
+        </Fragment>
+
+
 
     )
 }
