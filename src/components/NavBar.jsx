@@ -5,7 +5,6 @@ import { Routes, Route, NavLink } from "react-router-dom";
 import Movies from "./Movies";
 import TvShows from "./TvShows";
 import Trending from "./Trending";
-import Pricing from "./Pricing";
 import streamHaus from './streamHaus.png';
 
 
@@ -39,9 +38,6 @@ function NavBar() {
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Trending</span>
                         </NavLink>
 
-                        <NavLink to="Pricing" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
-                            <span id={toggle ? 'Movies' : 'MoviesLight'}>Pricing</span>
-                        </NavLink>
                     </div>
                     
                     <div className="input-group">
@@ -58,7 +54,6 @@ function NavBar() {
                     <Route path="/" element={<Movies/>}/>
                     <Route path="TvShows" element={<TvShows/>}/>
                     <Route path="Trending" element={<Trending/>}/>
-                    <Route path="Pricing" element={<Pricing/>}/>
                 </Routes>
 
             </Fragment>
