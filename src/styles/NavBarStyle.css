@@ -23,10 +23,10 @@ nav span:hover{
     border-bottom: 2px solid #FF5858;
     padding-bottom: 5px;
 }
-span #HomeLight, #MoviesLight, #TrendingLight, #PricingLight{
+span #HomeLight, #MoviesLight, #TrendingLight{
     color: #fff;
 }
-span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover, #PricingLight:hover{
+span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
     border-bottom: 2px solid #FF5858;
     color: #fff;
 }

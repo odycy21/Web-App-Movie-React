@@ -15,12 +15,12 @@ body{
 /* -- Theme Color -- */
 .DarkThemeColour{
     color:#FFFFFF;
-    font-size: 15px;
+    font-size: 11px;
     text-align: center;
 }
 .LightThemeColour{
     color: #000000;
-    font-size: 15px;
+    font-size: 11px;
     text-align: center;
 }
 
@@ -55,8 +55,8 @@ body{
     justify-content: center;
 }
 .main-container img{
-    width: 350px;
-    height: 550px;
+    width: 300px;
+    height: 500px;
     margin: 25px 0px 4px 15px;
     border-radius: 18px;
 }
