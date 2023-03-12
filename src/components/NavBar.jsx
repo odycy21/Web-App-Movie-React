@@ -37,9 +37,7 @@ function NavBar() {
                         <NavLink to="/Trending" style={({isActive}) => {return {color:isActive ? "#ff" : "#FF5858"}}}>
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Trending</span>
                         </NavLink>
-
                     </div>
-                    
                     <div className="input-group">
                         <input type="text" placeholder="Search here..." onChange={(e) => setInputValue(e.target.value)}/>
                         <HiSearch id="search" font-size = {21} color = "green" />
@@ -47,15 +45,12 @@ function NavBar() {
                             <div id={toggle ? 'Color-switcher-mover' : 'Color-switcher-moved'}></div>
                         </div>
                     </div>
-
                 </nav>
-        
                 <Routes>
                     <Route path="/" element={<Movies/>}/>
                     <Route path="TvShows" element={<TvShows/>}/>
                     <Route path="Trending" element={<Trending/>}/>
                 </Routes>
-
             </Fragment>
         </Container.Provider>
 

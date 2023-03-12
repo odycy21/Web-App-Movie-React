@@ -101,7 +101,6 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
     position: absolute;
     margin-left: 310px;
 }
-
 .movie-logo{
     width: 200px;
     height: 100%;

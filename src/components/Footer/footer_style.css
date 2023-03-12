@@ -1,0 +1,33 @@
+.footer_main{
+    background-color: #000000;
+    color: white;
+    padding: 25px 20px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer_txt p{
+    font-size: 13px;
+    text-align: center;
+    padding-left: 50px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_links ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.footer_links ul li:hover{
+    color: #FF5858;
+    cursor: pointer;
+}
+
+
+.footer_links ul li{
+   padding: 8px 25px;
+}
+

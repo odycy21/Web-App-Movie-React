@@ -20,7 +20,7 @@ body{
 }
 .LightThemeColour{
     color: #000000;
-    font-size: 18px;
+    font-size: 11px;
     text-align: center;
 }
 
@@ -53,12 +53,13 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .main-container img{
-    width: 300px;
-    height: 500px;
-    margin: 25px 0px 4px 15px;
-    border-radius: 18px;
+    width: 200px;
+    height: 300px;
+    margin: 20px 0px 4px 15px;
+    border-radius: 8px;
 }
 .main-container h3, .main-container img{
     cursor: pointer;
