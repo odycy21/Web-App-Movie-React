@@ -1,6 +1,6 @@
 import React, {Fragment, useState} from "react";
 import { HiSearch } from "react-icons/hi";
-import '../Stylesheets/navbar-style.css';
+import '../stylesheet/navbar-style.css';
 import { Routes, Route, NavLink } from "react-router-dom";
 import Movies from "./Movies";
 import TvShows from "./TvShows";

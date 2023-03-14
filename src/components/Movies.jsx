@@ -4,9 +4,9 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import noImage from './noImage.jpeg';
 import { Container } from "./NavBar";
-import '../Stylesheets/videos.css';
-import { tmdbApi } from "../Constants/index.js";
-import { apiKey } from "../Constants/index.js";
+import '../stylesheet/videos.css';
+import { tmdbApi } from "../constants/index.js";
+import { apiKey } from "../constants/index.js";
 
 
 function Movies() {

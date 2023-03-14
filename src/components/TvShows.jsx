@@ -4,10 +4,10 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import { Container } from "./NavBar";
 import noImage from './noImage.jpeg';
-import '../Stylesheets/videos.css';
-import { tmdbApi } from "../Constants";
-import { apiKey } from "../Constants";
-import { tvShowsLink } from "../Constants";
+import '../stylesheet/videos.css';
+import { tmdbApi } from "../constants";
+import { apiKey } from "../constants";
+import { tvShowsLink } from "../constants";
 
 function TvShows(){
     const {toggle} = useContext(Container)
