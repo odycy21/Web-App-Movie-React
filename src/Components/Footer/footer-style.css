@@ -1,5 +1,5 @@
 .footer_main{
-    background-color: #000000;
+    background-color: #0B121E;
     color: white;
     padding: 25px 20px;
     position: relative;
@@ -25,7 +25,6 @@
     color: #FF5858;
     cursor: pointer;
 }
-
 
 .footer_links ul li{
    padding: 8px 25px;

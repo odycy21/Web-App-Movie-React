@@ -4,9 +4,9 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import noImage from './noImage.jpeg';
 import { Container } from "./NavBar";
-import '../styles/Videos.css';
-import { tmdbApi } from "../constants/index.js";
-import { apiKey } from "../constants/index.js";
+import '../Stylesheets/videos.css';
+import { tmdbApi } from "../Constants/index.js";
+import { apiKey } from "../Constants/index.js";
 
 
 function Movies() {
@@ -53,7 +53,7 @@ function Movies() {
                     return( 
                         <Fragment key={movie.id}> 
                                 <div id={trailer ? 'container' : 'NoContainer'}>
-                                <BsFillPlayBtnFill color="#fff" fontSize={40} id={trailer ? "playIcon" : "hide"} onClick = {() => movieShowsTitle(movie)}/>
+                                <BsFillPlayBtnFill color="#fff" fontSize={30} id={trailer ? "playIcon" : "hide"} onClick = {() => movieShowsTitle(movie)}/>
                                         <img src={movie.poster_path ? `${Images}${movie.poster_path}` : noImage } alt = '' onClick = {() => movieShowsTitle(movie)}/>
                                         <h3 className={toggle ? 'DarkThemeColour' : 'LightThemeColour' }>{movie.title}</h3>
                                 </div>

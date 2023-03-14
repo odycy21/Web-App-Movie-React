@@ -4,10 +4,10 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import { Container } from "./NavBar";
 import noImage from './noImage.jpeg';
-import '../styles/Videos.css';
-import { tmdbApi } from "../constants";
-import { apiKey } from "../constants";
-import { tvShowsLink } from "../constants";
+import '../Stylesheets/videos.css';
+import { tmdbApi } from "../Constants";
+import { apiKey } from "../Constants";
+import { tvShowsLink } from "../Constants";
 
 function TvShows(){
     const {toggle} = useContext(Container)
@@ -51,7 +51,7 @@ function TvShows(){
                         return(
                             <Fragment key={shows.id}> 
                                 <div id={trailer ? 'container' : 'NoContainer'}>
-                                <BsFillPlayBtnFill color="#fff" fontSize={40} id={trailer ? "playIcon" : "hide"} onClick = {() => TvShowsTitle(shows)}/>
+                                <BsFillPlayBtnFill color="#fff" fontSize={30} id={trailer ? "playIcon" : "hide"} onClick = {() => TvShowsTitle(shows)}/>
                                                 <img src={shows.poster_path ? `${Images}${shows.poster_path}` : noImage } alt = '' onClick = {() => TvShowsTitle(shows)}/>
                                                 <h3 className={toggle ? 'DarkThemeColour' : 'LightThemeColour' }>{shows.name}</h3>
                                 </div>

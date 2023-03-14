@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import "../Footer/footer_style.css";
-
+import '../Footer/footer-style.css';
 
 function Footer() {
+
     
     //To Show current year
 
@@ -16,7 +16,7 @@ function Footer() {
                     <ul>
                         <li>Home</li> 
                         <li>Movies</li>
-                        <li>TvShows</li>
+                        <li>TV Shows</li>
                         <li>Trending</li>
                     </ul>
 
@@ -26,12 +26,7 @@ function Footer() {
                     <p> &copy; Stream Haus | {year} All Rights Reserved</p>
                 </div>
 
-             
-           
-               
-
             </div>
-
     )
 }
  

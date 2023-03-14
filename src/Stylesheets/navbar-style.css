@@ -3,7 +3,7 @@ nav {
     height: 9vh;
     display: flex;
     justify-content: space-between;
-    background-color: #001219;
+    background-color: #0B121E;
     align-items: center;
 }
 nav h1{
@@ -17,7 +17,7 @@ nav span{
     cursor: pointer;
     margin-left: 40px;
     font-size: 13px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 nav span:hover{
     color: #fff;
@@ -32,7 +32,7 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
     color: #fff;
 }
 #navBarColor{
-    background-color: #38bdab;
+    background-color: #467599;
     transition: .6s;
 }
 .nav-options{

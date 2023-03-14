@@ -4,9 +4,9 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import { Container } from "./NavBar";
 import noImage from './noImage.jpeg';
-import { tmdbApi } from "../constants";
-import { apiKey } from "../constants";
-import { trendsLink } from "../constants";
+import { tmdbApi } from "../Constants";
+import { apiKey } from "../Constants";
+import { trendsLink } from "../Constants";
 
 
 
@@ -51,7 +51,7 @@ function Trending(){
                             return(
                                 <Fragment key={trend.id}> 
                                     <div id={trailer ? 'container' : 'NoContainer'}>
-                                        <BsFillPlayBtnFill color="#fff" fontSize={40} id={trailer ? "playIcon" : "hide"} onClick = {() => trendingShowsTitle(trend)}/>
+                                        <BsFillPlayBtnFill color="#fff" fontSize={30} id={trailer ? "playIcon" : "hide"} onClick = {() => trendingShowsTitle(trend)}/>
                                         <img src={trend.poster_path ? `${Images}${trend.poster_path}` : noImage } alt = '' onClick = {() => trendingShowsTitle(trend)}/>
                                             <h3 className={toggle ? 'DarkThemeColour' : 'LightThemeColour' }>{trend.title}</h3>
                                     </div>    
