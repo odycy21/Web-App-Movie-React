@@ -6,19 +6,20 @@
     bottom: 0;
 }
 
-.footer_txt p{
-    font-size: 13px;
-    text-align: center;
-    padding-left: 50px;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-}
-
 .footer_links ul{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+}
+
+.footer_txt{
     font-size: 13px;
+   text-align: center;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .footer_links ul li:hover{
@@ -27,6 +28,9 @@
 }
 
 .footer_links ul li{
-   padding: 8px 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px 30px;
 }
 

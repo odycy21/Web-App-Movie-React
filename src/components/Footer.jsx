@@ -12,6 +12,7 @@ function Footer() {
             <div className="footer_main">
 
                 <div className="footer_links">
+
                     <ul>
                         <li>Home</li> 
                         <li>Movies</li>
@@ -19,12 +20,9 @@ function Footer() {
                         <li>Trending</li>
                     </ul>
 
-                </div>
+                    <p className="footer_txt"> &copy; Stream Haus | {year} All Rights Reserved</p>
 
-                <div className="footer_txt">
-                    <p> &copy; Stream Haus | {year} All Rights Reserved</p>
                 </div>
-
             </div>
     )
 }
