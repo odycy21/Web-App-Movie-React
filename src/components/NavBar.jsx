@@ -29,11 +29,11 @@ function NavBar() {
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Movies</span>
                         </NavLink>
 
-                        <NavLink  to="/TvShows" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
+                        <NavLink  to="/Tv-Shows" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>TV Shows</span>
                         </NavLink>
 
-                        <NavLink to="/Trending" style={({isActive}) => {return {color:isActive ? "#ff" : "#FF5858"}}}>
+                        <NavLink to="/Trending" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Trending</span>
                         </NavLink>
                     </div>
@@ -47,7 +47,7 @@ function NavBar() {
                 </nav>
                 <Routes>
                     <Route path="/" element={<Movies/>}/>
-                    <Route path="TvShows" element={<TvShows/>}/>
+                    <Route path="Tv-Shows" element={<TvShows/>}/>
                     <Route path="Trending" element={<Trending/>}/>
                 </Routes>
             </Fragment>
