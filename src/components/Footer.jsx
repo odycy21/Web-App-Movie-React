@@ -5,7 +5,6 @@ import { Routes, Route, NavLink } from "react-router-dom";
 function Footer() {
 
     //To Show current year
-
     const year = new Date().getFullYear();
 
     return(
@@ -31,13 +30,13 @@ function Footer() {
                         </li>
 
                         <li>
-                            <NavLink  to="/Tv-Shows" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
+                            <NavLink  to="/tv-shows" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
                             TV Shows
                             </NavLink>
                         </li>
                         
                         <li>
-                            <NavLink to="/Trending" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>   
+                            <NavLink to="/trending" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>   
                             Trending
                             </NavLink>
                         </li>
