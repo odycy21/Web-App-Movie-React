@@ -40,9 +40,6 @@ function NavBar() {
                     <div className="input-group">
                         <input type="text" placeholder="Search here..." onChange={(e) => setInputValue(e.target.value)}/>
                         <HiSearch id="search" font-size = {21} color = "green" />
-                        <div id="Color-switcher" onClick={() => setToggle(!toggle)}>
-                            <div id={toggle ? 'Color-switcher-mover' : 'Color-switcher-moved'}></div>
-                        </div>
                     </div>
                 </nav>
                 <Routes>
