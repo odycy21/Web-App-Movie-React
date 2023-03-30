@@ -24,7 +24,7 @@ function Footer() {
                         </li> 
 
                         <li>
-                            <NavLink to="/" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
+                            <NavLink to="/movies" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
                             Movies
                             </NavLink>
                         </li>

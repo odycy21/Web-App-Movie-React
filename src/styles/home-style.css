@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0 auto;
+    padding: ;
+}
+
+h1{
+    color:#c91b1b; 
+    padding: 0 0 0 0;
+}
+
+h2{
+    padding: 0 0 20px 0;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.mainBg{
+    background-color:#101C2E;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px 0;
+    margin: 0 100px;
+}
+
+.main-container p {
+  
+    text-align: justify;
+    color: #FFF;
+
+}

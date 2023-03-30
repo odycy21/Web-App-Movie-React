@@ -2,6 +2,7 @@ import React, {Fragment, useState} from "react";
 import { HiSearch } from "react-icons/hi";
 import '../styles/navbar-style.css';
 import { Routes, Route, NavLink } from "react-router-dom";
+import Home from "./Home";
 import Movies from "./Movies";
 import TvShows from "./TvShows";
 import Trending from "./Trending";
@@ -26,6 +27,10 @@ function NavBar() {
                         </NavLink>
 
                         <NavLink to="/" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
+                            <span id={toggle ? 'Home' : 'MoviesLight'}>Home</span>
+                        </NavLink>
+
+                        <NavLink to="/movies" style={({isActive}) => {return {color:isActive ? "#fff" : "#FF5858"}}}>
                             <span id={toggle ? 'Movies' : 'MoviesLight'}>Movies</span>
                         </NavLink>
 
@@ -43,7 +48,8 @@ function NavBar() {
                     </div>
                 </nav>
                 <Routes>
-                    <Route path="/" element={<Movies/>}/>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/movies" element={<Movies/>}/>
                     <Route path="tv-shows" element={<TvShows/>}/>
                     <Route path="trending" element={<Trending/>}/>
                 </Routes>
