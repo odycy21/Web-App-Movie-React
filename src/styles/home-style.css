@@ -16,15 +16,15 @@ h2{
 
 
 .mainBg2{
-    background-color:#101C2E;;
-    padding: 20px 50px;
+    background-color:#101C2E;
+    padding: 100px 80px;
     text-align: center;
-    min-height: 120vh;
+    min-height: 100vh;
 }
 
 .info-container{
     font-size: 12px;
-    margin: 20px 0;
+    margin: 80px 0;
     color: #FFF;
     text-align: justify;
     line-height: 1.5;
@@ -35,9 +35,9 @@ h2{
 }
 
 .home-logo{
-    width: 300px;
+    width: 200px;
     height: 100%;
-    padding: 20px;
+
 }
 
 .color-txt{
