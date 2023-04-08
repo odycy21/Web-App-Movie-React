@@ -24,7 +24,7 @@ h2{
 
 .info-container{
     font-size: 12px;
-    margin: 80px 0;
+    margin: 50px 0;
     color: #FFF;
     text-align: justify;
     line-height: 1.5;
@@ -35,7 +35,7 @@ h2{
 }
 
 .home-logo{
-    width: 200px;
+    width: 20em;
     height: 100%;
 
 }

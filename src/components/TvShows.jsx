@@ -4,7 +4,7 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import { Container } from "./NavBar";
 import noImage from './noImage.jpeg';
-import '../styles/videos.css';
+import '../styles/main-style.css';
 import { tmdbApi } from "../constants";
 import { apiKey } from "../constants";
 import { tvShowsLink } from "../constants";
