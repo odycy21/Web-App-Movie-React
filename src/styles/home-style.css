@@ -16,17 +16,16 @@ h2{
 
 
 .mainBg2{
-    background-color:#101C2E;
-    height: 100%;
-    padding: 120px 20px;
+    background-color:#101C2E;;
+    padding: 20px 50px;
     text-align: center;
+    min-height: 120vh;
 }
 
 .info-container{
     font-size: 12px;
+    margin: 20px 0;
     color: #FFF;
-    text-align: center;
-    padding: 50px 50px;
     text-align: justify;
     line-height: 1.5;
 }
