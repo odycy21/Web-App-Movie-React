@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-import '../styles/footer-style.css';
+import './footer-style.css';
 import { Routes, Route, NavLink } from "react-router-dom";
 
 function Footer() {
