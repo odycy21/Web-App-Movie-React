@@ -6,7 +6,7 @@ import Home from "./Home";
 import Movies from "./Movies";
 import TvShows from "./TvShows";
 import Trending from "./Trending";
-import streamHaus from './streamHaus.png';
+import streamHaus from '../Assets/streamHaus.png';
 
 export const Container = React.createContext()
 

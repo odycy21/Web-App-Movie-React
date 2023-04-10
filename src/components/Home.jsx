@@ -1,6 +1,6 @@
 import React, {Fragment} from "react";
 
-import streamHaus from './streamHaus.png';
+import streamHaus from '../Assets/streamHaus.png';
 
 import '../styles/home-style.css';
 

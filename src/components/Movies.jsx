@@ -2,7 +2,7 @@ import React, {Fragment, useEffect, useState, useContext} from "react";
 import axios from "axios";
 import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
-import noImage from './noImage.jpeg';
+import noImage from '../Assets/noImage.jpeg';
 import { Container } from "./NavBar";
 import '../styles/main-style.css';
 import { tmdbApi } from "../constants/index.js";
