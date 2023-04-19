@@ -4,8 +4,6 @@ import streamHaus from '../Assets/streamHaus.png';
 
 import '../styles/home-style.css';
 
-import '../styles/home-style.css';
-
 const Home = () => {
     return (  
         <Fragment>
