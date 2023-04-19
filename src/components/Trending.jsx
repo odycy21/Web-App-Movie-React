@@ -5,7 +5,7 @@ import {BsFillPlayBtnFill} from 'react-icons/bs';
 import { Container } from "../Layouts/Navbar";
 import noImage from '../Assets/noImage.jpeg';
 import { tmdbApi } from "../Constants";
-import { apiKey } from "../Constants";
+import { apiKey } from  "../Constants";
 import { trendsLink } from "../Constants";
 import '../styles/main-style.css';
 
