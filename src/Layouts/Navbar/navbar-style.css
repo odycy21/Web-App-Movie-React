@@ -106,3 +106,64 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
     height: 100%;
     padding: 10px;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .input-group{
+        position: absolute;
+        top: 100px;
+        margin: 0 auto;
+    }
+    
+   .menu {
+        display: flex;
+        justify-content: center;
+        overflow: visible;
+    
+        
+      }
+
+      .nav-options{
+        height: 100px;
+      }
+
+        .movie-logo{
+            width: 150px;
+            height: 100%;
+            padding: 10px;
+        }
+
+        nav span{
+
+            font-size: 10px;
+            margin: 18px;
+        
+        }
+    
+  }
+
+  @media screen and (max-width: 903px) {
+
+    
+    nav span{
+
+        font-size: 10px;
+        margin: 10px;
+    }
+
+
+}
+
+
+  @media screen and (max-width: 954px) {
+
+
+        nav span{
+
+            font-size: 10px;
+  
+
+        }
+    
+  }

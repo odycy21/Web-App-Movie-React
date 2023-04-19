@@ -19,7 +19,7 @@ function NavBar() {
 
         <Container.Provider value={{toggle, inputValue}}>
             <Fragment>
-                <nav id={toggle ? '' : 'navBarColor'}>
+                <nav className="menu" id={toggle ? '' : 'navBarColor'}>
                     
                     <div className="nav-options">
                         <NavLink to="/" >
