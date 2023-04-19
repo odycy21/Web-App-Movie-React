@@ -4,7 +4,7 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import noImage from '../Assets/noImage.jpeg';
 import { Container } from "../Layouts/Navbar";
-import '../Styles/main-style.css';
+import '../styles/main-style.css';
 import { tmdbApi } from "../Constants/index.js";
 import { apiKey } from "../Constants/index.js";
 

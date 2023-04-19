@@ -2,8 +2,9 @@ import React, {Fragment} from "react";
 
 import streamHaus from '../Assets/streamHaus.png';
 
-import '../Styles/home-style.css';
+import '../styles/home-style.css';
 
+import '../styles/home-style.css';
 
 const Home = () => {
     return (  

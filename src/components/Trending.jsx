@@ -7,7 +7,7 @@ import noImage from '../Assets/noImage.jpeg';
 import { tmdbApi } from "../Constants";
 import { apiKey } from "../Constants";
 import { trendsLink } from "../Constants";
-import '../Styles/main-style.css';
+import '../styles/main-style.css';
 
 
 function Trending(){
