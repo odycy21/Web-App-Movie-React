@@ -3,10 +3,10 @@ import axios from "axios";
 import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import noImage from '../Assets/noImage.jpeg';
-import { Container } from "./NavBar";
-import '../styles/main-style.css';
-import { tmdbApi } from "../constants/index.js";
-import { apiKey } from "../constants/index.js";
+import { Container } from "../Layouts/Navbar";
+import '../Styles/main-style.css';
+import { tmdbApi } from "../Constants/index.js";
+import { apiKey } from "../Constants/index.js";
 
 
 function Movies() {

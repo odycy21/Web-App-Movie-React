@@ -1,12 +1,12 @@
 import React, {Fragment, useState} from "react";
 import { HiSearch } from "react-icons/hi";
-import '../styles/navbar-style.css';
+import './navbar-style.css';
 import { Routes, Route, NavLink } from "react-router-dom";
-import Home from "./Home";
-import Movies from "./Movies";
-import TvShows from "./TvShows";
-import Trending from "./Trending";
-import streamHaus from '../Assets/streamHaus.png';
+import Home from "../../components/Home";
+import Movies from "../../components/Movies";
+import TvShows from "../../components/TvShows";
+import Trending from "../../components/Trending";
+import streamHaus from '../../Assets/streamHaus.png';
 
 export const Container = React.createContext()
 

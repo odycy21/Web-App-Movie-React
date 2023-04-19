@@ -2,12 +2,12 @@ import React, { Fragment, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
-import { Container } from "./NavBar";
+import { Container } from "../Layouts/Navbar";
 import noImage from '../Assets/noImage.jpeg';
-import '../styles/main-style.css';
-import { tmdbApi } from "../constants";
-import { apiKey } from "../constants";
-import { tvShowsLink } from "../constants";
+import '../Styles/main-style.css';
+import { tmdbApi } from "../Constants";
+import { apiKey } from "../Constants";
+import { tvShowsLink } from "../Constants";
 
 function TvShows(){
     const {toggle} = useContext(Container)
