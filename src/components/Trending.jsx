@@ -4,9 +4,9 @@ import {AiOutlineClose} from 'react-icons/ai';
 import {BsFillPlayBtnFill} from 'react-icons/bs';
 import { Container } from "../Layouts/Navbar";
 import noImage from '../Assets/noImage.jpeg';
-import { tmdbApi } from "../Constants";
-import { apiKey } from  "../Constants";
-import { trendsLink } from "../Constants";
+import { tmdbApi } from "../constants";
+import { apiKey } from  "../constants";
+import { trendsLink } from "../constants";
 import '../styles/main-style.css';
 
 

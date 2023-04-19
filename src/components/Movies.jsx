@@ -5,8 +5,8 @@ import {BsFillPlayBtnFill} from 'react-icons/bs';
 import noImage from '../Assets/noImage.jpeg';
 import { Container } from "../Layouts/Navbar";
 import '../styles/main-style.css';
-import { tmdbApi } from "../Constants";
-import { apiKey } from  "../Constants";
+import { tmdbApi } from "../constants";
+import { apiKey } from  "../constants";
 
 function Movies() {
 

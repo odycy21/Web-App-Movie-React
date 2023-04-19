@@ -5,9 +5,9 @@ import {BsFillPlayBtnFill} from 'react-icons/bs';
 import { Container } from "../Layouts/Navbar";
 import noImage from '../Assets/noImage.jpeg';
 import '../styles/main-style.css';
-import { tmdbApi } from "../Constants";
-import { apiKey } from "../Constants";
-import { tvShowsLink } from "../Constants";
+import { tmdbApi } from "../constants";
+import { apiKey } from "../constants";
+import { tvShowsLink } from "../constants";
 
 function TvShows(){
     const {toggle} = useContext(Container)
