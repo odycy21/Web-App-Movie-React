@@ -5,6 +5,10 @@ import streamHaus from '../Assets/streamHaus.png';
 import '../styles/home-style.css';
 
 const Home = () => {
+
+    //To Show current year
+    const year = new Date().getFullYear();
+
     return (  
         <Fragment>
             <div className="mainBg2">
@@ -17,7 +21,7 @@ const Home = () => {
                 
                 <div className="info-container">
 
-                    <p><span className="color-txt">Stream Haus</span> is the best and safest free movie site in 2021. With the ad-free feature.</p>
+                    <p><span className="color-txt">Stream Haus</span> is the best and safest free movie site in {year}. With the ad-free feature.</p>
 
                     <p><span className="color-txt">Stream Haus</span> allows users to watch and download tens of thousands of movies and TV shows in HD quality safely, freely, and smoothly. Despite the extensive content library and premium features.</p>
                     

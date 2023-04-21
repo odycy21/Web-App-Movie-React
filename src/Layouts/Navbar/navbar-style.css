@@ -143,6 +143,22 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
     
   }
 
+   @media screen and (max-width: 409px) {
+
+    
+    nav span{
+
+        font-size: 8px;
+        margin: 8px;
+    }
+
+    menu{
+        background: green;
+    }
+
+
+}
+
   @media screen and (max-width: 903px) {
 
     
