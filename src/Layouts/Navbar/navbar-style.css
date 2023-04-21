@@ -108,6 +108,28 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
 }
 
 
+
+@media screen and (max-width: 412px) {
+
+
+    .input-group{
+        position: absolute;
+    }
+    
+   .menu {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+    
+    nav span{
+        font-size: 8px;
+        margin: 8px;
+    }
+    
+}
+
+
 @media screen and (max-width: 768px) {
 
     .input-group{
@@ -143,22 +165,7 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
     
   }
 
-   @media screen and (max-width: 409px) {
-
-    
-    nav span{
-
-        font-size: 8px;
-        margin: 8px;
-    }
-
-    menu{
-        background: green;
-    }
-
-
-}
-
+  
   @media screen and (max-width: 903px) {
 
     

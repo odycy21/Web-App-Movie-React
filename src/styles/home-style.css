@@ -52,3 +52,30 @@ h2{
 }
 
 
+@media screen and (max-width: 412px) {
+
+
+    .home-logo{
+        width: 10em;
+        height: 100%;
+    }
+
+    .img-container h2{
+        font-size: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .home-logo{
+        width: 12em;
+        height: 100%;
+    }
+
+    .img-container h2{
+        font-size: 12px;
+    }
+
+  }
