@@ -109,6 +109,17 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
 
 /*-- Media Queries --*/
 
+@media screen and (max-width: 375px) {
+
+    nav span{
+
+        font-size: 5px;
+        margin: 5px;
+    
+    }
+
+}
+
 @media screen and (max-width: 412px) {
 
 
@@ -143,7 +154,6 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
         justify-content: center;
         overflow: visible;
     
-        
       }
 
       .nav-options{
@@ -158,8 +168,8 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
 
         nav span{
 
-            font-size: 10px;
-            margin: 18px;
+            font-size: 8px;
+            margin: 8px;
         
         }
     
@@ -169,7 +179,6 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
   @media screen and (max-width: 903px) {
 
     nav span{
-
         font-size: 10px;
         margin: 10px;
     }
@@ -180,6 +189,7 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
 
         nav span{
             font-size: 10px;
+            margin: 10px;
         }
     
   }

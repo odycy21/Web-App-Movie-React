@@ -50,6 +50,22 @@ a:active { text-decoration: none; }
 
 /*-- Media Queries --*/
 
+
+@media screen and (max-width: 375px) {
+
+    .footer_links ul{
+    
+        font-size: 52px;
+       
+    }
+
+    .footer_txt{
+        font-size: 5px;
+   
+    }
+
+}
+
 @media screen and (max-width: 412px) {
 
 
