@@ -107,7 +107,7 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
     padding: 10px;
 }
 
-
+/*-- Media Queries --*/
 
 @media screen and (max-width: 412px) {
 
@@ -168,25 +168,18 @@ span #HomeLight:hover, #MoviesLight:hover, #TrendingLight:hover{
   
   @media screen and (max-width: 903px) {
 
-    
     nav span{
 
         font-size: 10px;
         margin: 10px;
     }
-
-
 }
 
 
   @media screen and (max-width: 954px) {
 
-
         nav span{
-
             font-size: 10px;
-  
-
         }
     
   }

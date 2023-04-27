@@ -44,7 +44,7 @@ function NavBar() {
                     </div>
                     <div className="input-group">
                         <input type="text" placeholder="Search here..." onChange={(e) => setInputValue(e.target.value)}/>
-                        <HiSearch id="search" font-size = {21} color = "green" />
+                        <HiSearch id="search" font-size = {21} color = "gray" />
                     </div>
                 </nav>
                 <Routes>

@@ -45,3 +45,38 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+
+
+
+/*-- Media Queries --*/
+
+@media screen and (max-width: 412px) {
+
+    .footer_links ul{
+    
+        font-size: 8px;
+       
+    }
+
+    .footer_txt{
+        font-size: 10px;
+   
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .footer_links ul{
+    
+        font-size: 10px;
+       
+    }
+
+    .footer_txt{
+        font-size: 10px;
+   
+    }
+
+}
