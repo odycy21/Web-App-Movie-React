@@ -52,14 +52,11 @@ a:active { text-decoration: none; }
 
 @media screen and (max-width: 412px) {
 
-    .footer_main{
-        padding: 10px 10px;
-      
-    }
+
 
     .footer_links ul{
     
-        font-size: 8px;
+        font-size: 12px;
        
     }
 
@@ -73,14 +70,9 @@ a:active { text-decoration: none; }
 
 @media screen and (max-width: 768px) {
 
-    .footer_main{
-        padding: 10px 10px;
-      
-    }
-
+  
     .footer_links ul{
-    
-        font-size: 10px;
+        font-size: 8px;
        
     }
 
